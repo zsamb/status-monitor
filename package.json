@@ -1,0 +1,23 @@
+{
+  "name": "status-monitor",
+  "version": "0.1.0",
+  "description": "Service status monitor",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js | ./node_modules/.bin/bunyan"
+  },
+  "author": "zsam.b",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.3",
+    "bunyan": "^1.8.15",
+    "express": "^4.17.3",
+    "humanize-duration": "^3.27.1",
+    "mysql2": "^2.3.3",
+    "net-ping": "^1.2.3",
+    "node-cache": "^5.1.2",
+    "sequelize": "^6.17.0",
+    "uuid": "^8.3.2",
+    "ws": "^8.5.0"
+  }
+}

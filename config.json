@@ -1,0 +1,27 @@
+{
+    "debug": true,
+    "logs": {
+        "path": "logs/",
+        "history": 10
+    },
+    "mysql": {
+        "credentials": {
+            "database": "status_monitor",
+            "username": "monitor",
+            "password": "j$7=K#vbD=:hA*n%",
+            "host": "127.0.0.1",
+            "port": 3306
+        }
+    },
+    "webserver": {
+        "port": 3000
+    },
+    "sources": [
+        {
+            "type": "ping",
+            "name": "My Website",
+            "address": "https://sambarfield.com/",
+            "interval": 10
+        }
+    ]
+}
